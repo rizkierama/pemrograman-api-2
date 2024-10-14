@@ -1,13 +1,4 @@
-interface Person {
-	id: number;
-	name: string;
-	age: number;
-	address: string;
-	city: string;
-	phone: string;
-}
-
-let data: Array<Person> = [
+let data = [
 	{
 		id: 1,
 		name: 'John Doe',
